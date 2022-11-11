@@ -8,6 +8,11 @@
 header {
     background-color:#219EBC;
 }
+
+.logo {
+    width: 80px;
+}
+
 nav a:hover {
     background-color: #FFB703;
     color: black;
@@ -15,6 +20,12 @@ nav a:hover {
 nav a {
     text-align: center; 
     color: white;
+}
+
+
+#hero-img{
+    width: 100%;
+    
 }
 
 .home-title{
@@ -37,7 +48,9 @@ h4 {
     color: black;
 }
 
-
+.icon {
+    width: 80px;
+}
 
 #hero-msg {
     text-align: center;
