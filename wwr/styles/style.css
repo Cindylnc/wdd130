@@ -20,6 +20,7 @@ nav a:hover {
 nav a {
     text-align: center; 
     color: white;
+    text-decoration: none;
 }
 
 
@@ -46,20 +47,27 @@ h4 {
 .book {
     background-color:#9BE1D5;
     color: black;
+    text-decoration: none;
 }
 
 .icon {
     width: 80px;
 }
 
-#hero-msg {
+#hero-msg h1,h4 {
     text-align: center;
     
 }
 
-.home-grid{ 
-    text-align: center; 
+/*does h1,h4 work??*/
+
+.buttom-box {
+    text-align: center;
 }
+
+/*.home-grid{ 
+    text-align: center; 
+}with of item*/
 
 
 #background {
@@ -77,12 +85,13 @@ h4 {
 
 .join:hover {
     background-color: #219EBC;
-    color: white;
+    color: black;
 } 
 
 .join {
     background-color:#9BE1D5;
     color: black;
+    text-decoration: none;
 }
 
 
@@ -92,5 +101,16 @@ footer {
     color: white;
 }
 
-footer a {color: white;}
+footer p {
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+}   
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
 footer a:hover {color: black;}
