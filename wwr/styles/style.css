@@ -69,11 +69,13 @@ h4 {
 }
 
 
-
 home-grid{ 
     text-align: center; 
 }
 
+main section{
+    text-align: center; 
+}
 
 #background {
     height: 725px;
