@@ -79,11 +79,5 @@ footer {
     color: white;
 }
 
-footer a {color: red;}
-footer a:hover {color: orange;}
-
-
-
-  * {
-    border: 2px solid blue;
-}
+footer a {color: white;}
+footer a:hover {color: black;}
