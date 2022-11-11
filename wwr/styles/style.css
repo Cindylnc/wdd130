@@ -62,16 +62,11 @@ h4 {
     text-align: center;   
 }
 
-/*does h1,h4 work??*/
 
 .button-box {
     text-align: center;
 }
 
-
-home-grid{ 
-    text-align: center; 
-}
 
 main section{
     text-align: center; 
@@ -79,7 +74,7 @@ main section{
 
 #background {
     height: 725px;
-    background-color: #9BE1D5; 
+    background-color: #FFB703; 
 }
 
 .msg {
@@ -117,7 +112,7 @@ footer p a:hover {
 }   
 
 footer a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 footer a:hover {color: black;}
