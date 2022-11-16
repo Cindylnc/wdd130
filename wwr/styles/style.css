@@ -1,9 +1,11 @@
-body 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rock+Salt&display=swap');
+
 
 #content{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #fcfbfb;
+    font-size: 22px;
   }
 
 
@@ -18,12 +20,15 @@ header {
 nav a:hover {
     background-color: #FFB703;
     color: black;
+    
 } 
 
 nav a {
     text-align: center; 
     color: white;
     text-decoration: none;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    
 }
 
 #hero-img{
@@ -32,7 +37,15 @@ nav a {
 
 .home-title{
     color: #219EBC;
+    font-family: "Rock Salt", "Bradley Hand",sans-serif;
+    font-size: 2em;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
 
 h4 {
     color: #219EBC
@@ -47,6 +60,9 @@ h4 {
     background-color:#F2FBFF;
     color: black;
     text-decoration: none;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 18px;
+    
 }
 
 .icon {
@@ -79,7 +95,15 @@ main section{
 .msg {
     background-color: #219EBC;
     color: white;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    line-height: 1.5em;
 }
+
+.msg h2{
+    font-family: "Rock Salt", Helvetica, sans-serif;
+    /*line-height: 2.5em; ADD THI SIF NOT SPACE ABOUT MORE THAN JUST THE THRILL */
+}
+
 
 .join:hover {
     background-color: #FFB703;
@@ -90,6 +114,8 @@ main section{
     background-color:#F2FBFF;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    
 }
 
 footer {
@@ -99,6 +125,7 @@ footer {
 
 footer p {
     font-size: 1.2em;
+    font-family: "Montserrat", Helvetica, sans-serif;
 } 
 
 footer p a:hover {
