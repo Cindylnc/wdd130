@@ -43,6 +43,7 @@ nav a {
     font-family: "Montserrat", Helvetica, sans-serif;
     margin-top: 20px;
     padding: 35px;
+    width: 100%; /*tlinea*/
     
 }
 
@@ -129,7 +130,11 @@ main section img {
 
 .card-img {
     border: 10px solid #219EBC;
-    width: 35%; 
+    width: 45%;   /*tlinea*/
+}
+
+.mountains {
+    width: 100%;   /*todo el bracket*/
 }
 
 main img{
