@@ -158,7 +158,7 @@
 /* Activity 5 styles */ 
 .content5 {
   height: 400px;
-  width: 700px;
+
   /* This is the parent of the activity 5 boxes. */
 }
 .red5 { 
@@ -168,24 +168,25 @@
 
 } 
 .green5 { 
-  position: relative;
+
   float: left;
-  top: 0px;
-  left: 0;
-  width: 29%; 
-  height: 49%; 
+
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
 
 } 
 .yellow5 {
   width: 100%; 
-  height: 277px; 
+
   background-color: gold; 
 
 
 } 
 .blue5 {
-  position: none;
+ 
+  top: 0px;
+  left: 0;
   width: 100%; 
   height: 100px; 
   background-color: blue; 
