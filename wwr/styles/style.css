@@ -5,8 +5,7 @@
     max-width: 1600px;
     margin: 0 auto;
     font-size: 22px;
-    
-  }
+}
 
 
 body {
@@ -18,7 +17,6 @@ header {
     background-color:#219EBC;
     display:grid;
     grid-template-columns: 150px auto;
-
 }
 
 .logo {
@@ -35,9 +33,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
- 
-
-
+    
 }
 
 nav a:hover {
@@ -45,7 +41,9 @@ nav a:hover {
     color: black;
     margin: 0;
     padding-top: 10px;
-    
+    justify-self: center;
+    align-self: end;
+
 } 
 
 nav a {
@@ -55,35 +53,30 @@ nav a {
     font-family: "Montserrat", Helvetica, sans-serif;
     margin-top: 20px;
     padding: 35px;
-    
 }
 
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
-
 }
 
 
 
 #hero-img{
     width: 100%;   
-
 }
 
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-
 }
 
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
-
 }
 
 .home-title{
@@ -117,11 +110,12 @@ h4 {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-    
 }
 
 .home-grid {
     margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .icon {
@@ -155,25 +149,52 @@ main section img {
 #background {
     height: 725px;
     background-color: #FFB703; 
-    margin: 100px 0;
-    
+    margin: 0;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.rivers-card {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3; 
+}
+
+.camping-card {
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 
 
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 6/8;
+    box-shadow: 5px 5px 10px #6f7364
 }
 
 .card-img {
     border: 10px solid #219EBC;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364
+}
 
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 
 main img{
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;   
 }
 
 h2 {
@@ -186,7 +207,10 @@ h2 {
     font-family: "Montserrat", Helvetica, sans-serif;
     line-height: 1.5em;
     padding: 35px;
-    margin: 180px 0;
+    margin: 100px 0;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364
 }
 
 .msg h2{
@@ -219,6 +243,9 @@ footer {
     color: #219EBC;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer p {
