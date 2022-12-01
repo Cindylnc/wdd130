@@ -272,9 +272,6 @@ footer a:hover {
 
 
 /* rates-dates Site */
-
-
-
 .page-title{
     font-family: "Rock Salt", Helvetica, sans-serif;
     margin-top: 110px;
@@ -375,104 +372,6 @@ footer a:hover {
 }
 
 
-
-
-
-
-
-
-/*
-
-.page-title{
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 2.5em;
-}
-
-.rates-canyongrid {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-}
-
-.gcanyon-three{
-    padding: 20px;
-    font-family: "Montserrat", Helvetica, sans-serif;
-    font-size: 1.2em;
-    text-align: left;
-    grid-column: 1/4;
-    grid-row: 1/2;
-
-
-}
-.canyon3-img{
-    width: 100%;
-    grid-column: 4/8;
-    grid-row: 1/2;
-}
-
-.canyon6-img{
-    width: 100%;
-    grid-column: 1/5;
-    grid-row: 2/3;
-}
-.gcanyon-six {
-    padding: 20px;
-    font-family: "Montserrat", Helvetica, sans-serif;
-    font-size: 1.2em;
-    text-align: left;
-    grid-column: 5/8;
-    grid-row: 2/3;
-}
-
-
-
-.rates-riversdesogrid{
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-}
-
-.salmon-five{
-    padding: 20px;
-    font-family: "Montserrat", Helvetica, sans-serif;
-    font-size: 1.2em;
-    text-align: left;
-    grid-column: 1/4;
-    grid-row: 1/2;
-}
-.salmon5-img{
-    width: 100%;
-    grid-column: 4/8;
-    grid-row: 1/2;
-}
-
-.desolation6-img{
-    width: 100%;
-    grid-column: 1/5;
-    grid-row: 2/3;
-}
-.desolation-six{
-    padding: 20px;
-    font-family: "Montserrat", Helvetica, sans-serif;
-    font-size: 1.2em;
-    text-align: left;
-    grid-column: 5/8;
-    grid-row: 2/3;
-}
-
-
-
-*/
-
-/* Media */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
