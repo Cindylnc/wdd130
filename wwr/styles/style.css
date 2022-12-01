@@ -413,5 +413,15 @@ footer a:hover {
     footer {
         margin-top: 25px;
     }
+
+
+    .rates-canyongrid {
+        display:block;
+    }
+
+    .rates-riversdesogrid{
+        display: block;
+    }
+
 }
             
