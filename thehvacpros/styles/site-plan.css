@@ -1,13 +1,13 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@300;400&family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@200;300;400&family=Quicksand:wght@400;500&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #1f77d2  ;
-  --secondary-color: #D12D2C ;
-  --accent1-color: #E45101 ;/*D12D2C*/
+  --secondary-color: #E45101 ;
+  --accent1-color: #FE600B; ;/*D12D2C*/
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
