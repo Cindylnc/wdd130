@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@200;300;400&family=Quicksand:wght@400;500&display=swap');
 
-
+/* ********************* Home Page ****************** */
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -27,11 +27,11 @@ nav {
     
 }
 
+
 nav a:hover {
     background-color: #1f77d2;
     color: white;
     margin: 0;
-    padding-top: 20px;
     border-radius: 8px;
     justify-self: center;
     align-self: center;
@@ -40,6 +40,7 @@ nav a:hover {
 nav a {
     text-align: center; 
     color: #1f77d2;
+    font-size: 25px;
     text-decoration: none;
     font-family: "Mulish", Helvetica, sans-serif;
     margin-top: 20px;
@@ -48,8 +49,10 @@ nav a {
 }
 
 .phone-number{
+
     color: #FE600B;
     font-family: "Mulish", Helvetica, sans-serif;
+    font-size: 25px;
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -152,7 +155,9 @@ h3{
 
 .about-us{
     grid-column: 1/2;
+    grid-row: 1/2;
     color: #1f77d2;
+
 }
 
 
@@ -178,18 +183,22 @@ p{
     padding: 15px 30px;
     border-radius: 20px;
     border-style: double;
+    transition: transform .8s;
 }
 
 .getaquote-today:hover {
     background-color: #FE600B;
     color: white;
+
 } 
 
 .about-image{
     grid-column: 3/4;
+    grid-row: 1/2;
     text-align: left;
     width: 100%;
     border-radius: 50px;
+    transition: transform .8s;
 }
 
 .about-image:hover{
@@ -234,7 +243,7 @@ footer a:hover {
     color: black;
 }
 
-/* ******** Testimonies ******** */
+/* ********************* Testimonies ****************** */
 
 #content-test{
     max-width: 1600px;
@@ -308,9 +317,6 @@ footer a:hover {
 }
 
 
-
-
-
 .middle-review-grid{
     grid-column: 1/2;
     grid-row: 2/3;
@@ -331,15 +337,13 @@ footer a:hover {
     margin-top: 50px;
     width: 45%;
     border-radius: 10px;
+    transition: transform .8s;
 }
 .installing:hover{
     border-radius: 20px;
     opacity: .9;
     transform: scale(1.08);
 }
-
-
-
 
 
 .second-middle-review-grid{
@@ -364,16 +368,13 @@ footer a:hover {
     margin-top: 30px;
     width: 80%;
     border-radius: 10px;
+    transition: transform .8s;
 }
 .mini-split:hover{
-    border-radius: 50px;
+    border-radius: 20px;
     opacity: .9;
     transform: scale(1.05);
 }
-
-
-
-
 
 
 .bottom-review-grid{
@@ -395,4 +396,241 @@ footer a:hover {
     font-size: 25px;
 }
 
+
+/* ********************* Contact us ****************** */
+
+#content-quote{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#contactus-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .8fr 1.6fr .8fr;
+    background-color:#1f77d2;
+    box-shadow: 10px 10px 18px#023e8a;
+}
+
+.contact-us-title{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 0.08em;
+    text-align: center;
+    font-family: "Anton", "Bradley Hand",sans-serif;
+    transition: transform .5s;
+}
+
+.contact-us-title:hover{
+    transform: scale(1.08);
+}
+
+.division-contact{
+    width: 15%;
+    background-color: white;
+    height: 3px;
+    text-align: center;
+}
+
+.contact-us-img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 140px;
+    margin-left: 120px;
+    width: 90%;
+    transition: transform .5s;
+    box-shadow: 10px 10px 18px #023e8a;
+    border-radius: 8px;
+}
+
+.contact-us-img:hover{
+    opacity: 2;
+    transform: scale(1.02);
+}
+
+.contact-us-info{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 120px;
+    margin-left: 120px;
+    text-align: left;
+    color: white;
+    font-family: "Mulish", Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.contact-us-invitation{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: white;
+    font-family: "Mulish", Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#contactus-bottom-grid{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.contact-us-logo{
+    margin-top: 80px;
+    grid-column: 5/9;
+    grid-row: 1/5;
+    width: 90%;
+
+}
+
+.contact-us-logoname{
+    margin-top: 60px;
+    margin-left: 100px;
+    grid-column: 6/10;
+    grid-row: 3/4;
+
+}
+
+/* ********************* Media ****************** */
+@media screen and (min-width: 1500px) {
+    body{
+        font-size: 1vw;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    #content{
+        display: block;
+
+        font-size: 15px;
+    }
+
+    header{
+        display: block;
+    }
+    .logo {
+        width: 20%;
+    }
+
+    .phone-number{
+        flex-direction: column;
+        font-size: 8px;
+        text-align: right;
+        width: 90%;
+        margin: 10px;
+    }
+
+
+    nav a{
+        font-size: 12px;
+        margin: -50px;
+    }
+
+    
+   
+
+    footer {
+        flex-direction: column;
+    }
+
+    .services-title{
+        margin-top: 55px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .services-grid{
+
+        display: block;
+        margin: -80px;
+    }
+
+    .heater-card, .ac-card, .tuneups-card,.installation-card {
+        margin-left: -40px;
+    }
+
+    .icon{
+        width: 100%;
+    }
+    
+    .about-us-grid{
+        display:block;
+        margin-left: -60px;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+
+    .about-image{
+        display: block;
+        margin-left: -30px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+    #reviews-grid{
+        display: block;
+    }
+
+}
+   
+   
+   /* ** #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+
+
+    .rates-canyongrid {
+        display:block;
+    }
+
+    .rates-riversdesogrid{
+        display: block;
+    }
+    ** */
 
